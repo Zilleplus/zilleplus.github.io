@@ -4,9 +4,9 @@ permalink: /projects/system_identification
 ---
 # Project System identification
 
-This project is related to the class of system identication(KuLeuven B. Demoor) in collaboration with Marie Valenduc .
+This project is related to the class of system identication(KuLeuven B. Demoor) in collaboration with Marie Valenduc.
 
-The idea was to try to determine a model for an unknown filter by using data from the real filter. By sending in a certain input a certain output is obtained. If the input data uses all the dynamics of the model then model is implicitly expressed by the data.
+The idea was to determine a model for an unknown filter by using data from the real filter. By sending in a certain input a certain output is obtained. If the input data uses all the dynamics of the model then model is implicitly expressed by the input and output.
 
 Surprisingly enough it is possible to determine the models that are quiet close to the behavoir of real filter. Eventough the data is full of noise.
 
@@ -16,7 +16,7 @@ Surprisingly enough it is possible to determine the models that are quiet close 
     </div>
 </center>
 
-I found this quiet an elegant way to machine learning. This clearly shows the relationship between system theory and machine learning.
+I found this quiet an elegant way to machine learning. This clearly shows the relationship between system theory and machine learning. 
 
-View on
+View on project on
  [github](https://github.com/Zilleplus/Sys_iden_assignment1)
