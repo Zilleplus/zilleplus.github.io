@@ -29,7 +29,7 @@ One way to solve this problem is by using active shape models. These models use 
     Figure2: PCA components
 </center>
 
-For those unfamiliar with linear algebra this all might sound like Greek. Beleave it or not but its not hard at all. After trying to explain it to a few people i came up with the puppet analogy. And some people seem to like it so.
+For those unfamiliar with linear algebra this all might sound like Greek. Believe it or not but its not hard at all. After trying to explain it to a few people i came up with the puppet analogy. And some people seem to like it so.
 
 <center>
     <div>
@@ -41,9 +41,9 @@ Imagine a puppet , one of those puppets with string attached to it called a mari
 
 How will you chose the spots to attach the strings if you know you have to make the puppet dance? You will most likely think about what simple large movements are dominant. And those will influence your first choices. The more strings you can attach the more you will also look at smaller movements. Think about leg movements versus eye movement.
 
-This is PCA analysis, the principle are movements you express with the strings. If you have an infinite amount of strings you could do every movement possible however the puperteer must be a genius then. As there are so many strings to control. This is why a small amount of strings is prefered. We can say that the dimension of the problem is reduced.
+This is PCA analysis, the principle are movements you express with the strings. If you have an infinite amount of strings you could do every movement possible however the puppeteer must be a genius then. As there are so many strings to control. This is why a small amount of strings is preferred. We can say that the dimension of the problem is reduced.
 
-### Step direction fitting algorthm
+### Step direction fitting algorithm
 After determining the active shape model we have a very simple way to generate possible shapes of teeth. If we start with the average shape and scale it we get Figure3. The normal of on each of the data points is also printed out. This will be the search direction.
 <center>
     <div>
@@ -52,18 +52,18 @@ After determining the active shape model we have a very simple way to generate p
     Figure3: Landmarks on teeth
 </center>
 
-### Fitting algorthm levels
-After reading an interesting paper on these active shape models, it seems a multi level apprach is the best option. Figure4 illustrates the resulting shapes after each level.
+### Fitting algorithm levels
+After reading an interesting paper on these active shape models, it seems a multi level approach is the best option. Figure4 illustrates the resulting shapes after each level.
 <center>
     <div>
         <a href="url"><img src="./img/level0_fitting.png" align="center" height="200" width="170" ></a>
         <a href="url"><img src="./img/level1_fitting.png" align="center" height="200" width="170" ></a>
         <a href="url"><img src="./img/level2_fitting.png" align="center" height="200" width="170" ></a>
     </div>
-    Figure4: The same white shape in all 3 figures is the starting position of algorthm. The left figure has in grey the shape after level0 fitting, the center level1 fitting and the right level2 fitting
+    Figure4: The same white shape in all 3 figures is the starting position of algorithm. The left figure has in grey the shape after level0 fitting, the center level1 fitting and the right level2 fitting
 </center>
 
 ### Final remark
-Alltough its not included in the class its possible to use system identification here. The landmarks here allways had the same amount of points. Ths obviously will not allways be the case. The landmarks could be represented by for example an ARMAX model instead of fixed points. This idea is based on a paper i read for the class system identification.
+Although its not included in the class its possible to use system identification here. The landmarks here always had the same amount of points. Ths obviously will not always be the case. The landmarks could be represented by for example an ARMAX model instead of fixed points. This idea is based on a paper i read for the class system identification.
 
 View project on [github](https://github.com/Zilleplus/Project_computer_vision)

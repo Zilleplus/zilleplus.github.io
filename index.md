@@ -8,7 +8,7 @@ I am an belgian engineer/ engineering student see [about](about.md) to find out 
 At the moment i am working on my master thesis to finish my degree of Mathematical engineering. The title of the thesis is: Newton-type operator splitting methods for embedded model predictive control. In this thesis i am implementing an algorithm in c++ to efficiently solve the optimization problem in a Non linear Model predictive controller. 
 
 ## Side project
-In my sparetime i am playing around with openwrt on the tp-link acces points. I am trying to create a free-wifi acces point that requires an email loggin but without a central server. At this with an acces point with only 4MB of memory.
+In my spare time i am playing around with Openwrt on tp-link access points. I am trying to create a free-wifi access point that requires an email authentication but without a central server. And this while the access point with only 4MB of flash to fit everything on. 
 
 <center>
 <a href="url"><img src="./img/TL-WA701ND-02.jpg" align="center" height="200" width="300" ></a>
