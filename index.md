@@ -1,6 +1,6 @@
-# Welcome to the personal page of Willem Melis
+# Welcome to the personal page of Willem Melis (Site is under construction)
 
-Warning this site is still under construction, so things might be wrong/weird
+Warning this site is still under construction, so things might be wrong/weird.
 
 I am an belgian engineer/ engineering student see [about](about.md) to find out more about me. It's also interesting to check out some of [my finished projects](project.md) that i personally found interesting.
 
