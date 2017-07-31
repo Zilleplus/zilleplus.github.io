@@ -19,4 +19,4 @@ Surprisingly enough it is possible to determine the models that are quiet close 
 I found this quiet an elegant way to machine learning. This clearly shows the relationship between system theory and machine learning. 
 
 View on project on
- [github](https://github.com/Zilleplus/Sys_iden_assignment1)
+ [Github](https://github.com/Zilleplus/Sys_iden_assignment1)

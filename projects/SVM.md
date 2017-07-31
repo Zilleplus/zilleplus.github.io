@@ -22,4 +22,4 @@ An other very interesting application of support vector machines is the kernel P
     </div>
 </center>
 
-View on [github](https://github.com/Zilleplus/SVM)
+View on [Github](https://github.com/Zilleplus/SVM)

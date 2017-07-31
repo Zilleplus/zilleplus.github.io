@@ -15,4 +15,4 @@ This project was realized for the class [Methods and Algorithms for Advanced Pro
 
 TODO
 
-View on [github](https://github.com/Zilleplus/computerGestuurdeRegeltechnieken)
+View on [Github](https://github.com/Zilleplus/computerGestuurdeRegeltechnieken)

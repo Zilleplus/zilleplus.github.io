@@ -8,7 +8,7 @@ This project was realized for the class [Computer vision](https://onderwijsaanbo
 
 
 ## The problem
-A bunch of x-ray pictures where given(Figure1 right). Some of these pictures have landmarks that show the borders of the 4 frontal teeth.(see Figure1 left) The question was, how do i determine the borders of the 4 frontal teeth when the landmarks are not given.
+A bunch of x-ray pictures where given(Figure1 right). Some of these pictures have landmarks that show the borders of the 4 frontal teeth.(see Figure1 left) The question was, how do I determine the borders of the 4 frontal teeth when the landmarks are not given.
 <center>
     <div>
         <a href="url"><img src="./img/computerVisionLandmarks.png" align="center" height="200" width="300" ></a>
@@ -66,4 +66,4 @@ After reading an interesting paper on these active shape models, it seems a mult
 ### Final remark
 Although its not included in the class its possible to use system identification here. The landmarks here always had the same amount of points. Ths obviously will not always be the case. The landmarks could be represented by for example an ARMAX model instead of fixed points. This idea is based on a paper i read for the class system identification.
 
-View project on [github](https://github.com/Zilleplus/Project_computer_vision)
+View project on [Github](https://github.com/Zilleplus/Project_computer_vision)
