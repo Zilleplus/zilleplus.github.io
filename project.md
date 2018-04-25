@@ -12,6 +12,6 @@ permalink: /project/
 - [Support Vector Machines](/projects/SVM)
 
 ## Related to ICT-electronics
-- [Thesis master Electronics-ICT]()
+- [Thesis master Electronics-ICT](/projects/thesis_ict)
 
 ## Other

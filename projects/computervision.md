@@ -39,12 +39,12 @@ For those unfamiliar with linear algebra this all might sound like Greek. Believ
 
 Imagine a puppet , one of those puppets with string attached to it called a marionette. Now take off all the strings. Now you can reattach 1 string, knowing that you have to make it dance with only 1 string. Then attach 2 more strings. 
 
-How will you chose the spots to attach the strings if you know you have to make the puppet dance? You will most likely think about what simple large movements are dominant. And those will influence your first choices. The more strings you can attach the more you will also look at smaller movements. Think about leg movements versus eye movement.
+How will you chose the spots to attach the strings if you know you have to make the puppet dance? You will have to think about what movements are dominant.The more strings you can attach the more you will also look at smaller movements.
 
-This is PCA analysis, the principle are movements you express with the strings. If you have an infinite amount of strings you could do every movement possible however the puppeteer must be a genius then. As there are so many strings to control. This is why a small amount of strings is preferred. We can say that the dimension of the problem is reduced.
+This is PCA analysis, the principle components are the strings. If you have an infinite amount of strings, you could do every movement possible however the puppeteer must be a genius with infinite arms. As there are so many strings to control. This is why a small amount of strings is preferred. Or put more formally,the dimension of the problem is reduced.
 
 ### Step direction fitting algorithm
-After determining the active shape model we have a very simple way to generate possible shapes of teeth. If we start with the average shape and scale it we get Figure3. The normal of on each of the data points is also printed out. This will be the search direction.
+After determining a model with PCA analysis. The shape of a average teeth can be approximated by the model, displayed in Figure3. The normal on each following pair of data points is also printed out. This will be the search direction.
 <center>
     <div>
         <a href="url"><img src="./img/computerVision_normals.png" align="center" height="200" width="300" ></a>
@@ -64,6 +64,6 @@ After reading an interesting paper on these active shape models, it seems a mult
 </center>
 
 ### Final remark
-Although its not included in the class its possible to use system identification here. The landmarks here always had the same amount of points. Ths obviously will not always be the case. The landmarks could be represented by for example an ARMAX model instead of fixed points. This idea is based on a paper i read for the class system identification.
+Although it's not included in the class it's possible to use system identification here. The landmarks here always had the same amount of points. Ths obviously will not always be the case. The landmarks could be represented by for example an ARMAX model instead of fixed points.
 
 View project on [Github](https://github.com/Zilleplus/Project_computer_vision)
