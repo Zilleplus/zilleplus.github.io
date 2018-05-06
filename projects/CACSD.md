@@ -3,7 +3,7 @@ title: Computer aided control system design
 permalink: /projects/CACSD
 ---
 
-<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+<script type="text/javascript" src="https://latex.codecogs.com/latexit.js"></script>
 
 
 # Project computer aided control system design
