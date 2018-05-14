@@ -16,8 +16,8 @@ permalink: /about/
 
 ### books i am reading right now:
 1. Deep learning, Ian goodfellow, Yoshua Bengio
-2. Gandhi an autobiography
-3. The theoretical minimum (classical mechanics)
+2. Skin in the game (Taleb)
+3. Hit refresh (Nadella)
 
 ## Education:
 My formal education is somewhat unorthodox, i started very low with a basic electronics bachelor degree. And worked my way up to Mathematical engineering. This means that I have a lot more hands on experience then a lot of my fellow students. On the other hand it did take me longer to get where I am right now then my fellow students.

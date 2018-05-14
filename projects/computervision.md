@@ -41,7 +41,7 @@ Imagine a puppet , one of those puppets with string attached to it called a mari
 
 How will you chose the spots to attach the strings if you know you have to make the puppet dance? You will have to think about what movements are dominant.The more strings you can attach the more you will also look at smaller movements.
 
-This is PCA analysis, the principle components are the strings. If you have an infinite amount of strings, you could do every movement possible however the puppeteer must be a genius with infinite arms. As there are so many strings to control. This is why a small amount of strings is preferred. Or put more formally,the dimension of the problem is reduced.
+This is PCA analysis, the principle components are the strings. If you have an infinite amount of strings, you could do every movement possible however the puppeteer must be a genius with infinite arms. As there are so many strings to control. This is why a small amount of strings is preferred. Or put more formally, the dimension of the problem is reduced.
 
 ### Step direction fitting algorithm
 After determining a model with PCA analysis. The shape of a average teeth can be approximated by the model, displayed in Figure3. The normal on each following pair of data points is also printed out. This will be the search direction.
