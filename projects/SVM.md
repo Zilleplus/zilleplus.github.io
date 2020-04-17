@@ -4,7 +4,7 @@ permalink: /projects/SVM
 ---
 # Project support vector machines
 
-This project was realized for the class [Support Vector Machines: Methods and Applications](https://onderwijsaanbod.kuleuven.be/syllabi/e/H02D3AE.htm#activetab=doelstellingen_idp4531360)
+This project was realized for the class [Support Vector Machines: Methods and Applications](https://onderwijsaanbod.kuleuven.be/syllabi/e/H02D3AE.htm#activetab=doelstellingen_idp4531360) We learned about how to use support vector machines to predict time serie, and how to create classification algorithms using support vector machines.
 
 ## Regression
 One application of least-square support vector machines is regression. A least square support vector machines was used on the Santa Fe Laser dataset to predict values. The image below shows the real data in red and the predicted data in blue.

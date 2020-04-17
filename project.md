@@ -6,6 +6,7 @@ permalink: /project/
 # Overview of projects from the past that i found very interesting
 
 ## Related to Mathematical engineering
+- [Thesis project: nmpc-codgen](/projects/nmpccodegen)
 - [System identification](/projects/system_identification)
 - [Computer aided control system design](/projects/CACSD)
 - [Project computer vision](/projects/computervision)

@@ -8,7 +8,7 @@ This project was realized for the class [Computer vision](https://onderwijsaanbo
 
 
 ## The problem
-A bunch of x-ray pictures where given(Figure1 right). Some of these pictures have landmarks that show the borders of the 4 frontal teeth.(see Figure1 left) The question was, how do I determine the borders of the 4 frontal teeth when the landmarks are not given.
+A bunch of x-ray pictures where provided(Figure1 right). Some of the pictures had landmarks that show the border of the 4 frontal teeth.(see Figure1 left) The algorithm should determine the borders of the 4 frontal teeth for the pictures without landmarks.
 <center>
     <div>
         <a href="url"><img src="./img/computerVisionLandmarks.png" align="center" height="200" width="300" ></a>
@@ -17,10 +17,9 @@ A bunch of x-ray pictures where given(Figure1 right). Some of these pictures hav
     Figure1: left Landmarks on teeth, right full picture
 </center>
 
-
 ## Final algorithm
 ### Active shape models
-One way to solve this problem is by using active shape models. These models use PCA analysis to find principles components of a teeth. These components can then be used to build a new teeth. First 10 principle components are illustrated in Figure2 after the average teeth. The average teeth is obtained by adding together all the principle components each multiplied by there corresponding eigenvalues.
+These models use PCA analysis to find principles components of a teeth. These components can then be used to build a new teeth. First 10 principle components are illustrated in Figure2 after the average teeth. The average teeth is obtained by adding together all the principle components each multiplied by there corresponding eigenvalues.
 
 <center>
     <div>
@@ -28,20 +27,6 @@ One way to solve this problem is by using active shape models. These models use 
     </div>
     Figure2: PCA components
 </center>
-
-For those unfamiliar with linear algebra this all might sound like Greek. Believe it or not but its not hard at all. After trying to explain it to a few people i came up with the puppet analogy. And some people seem to like it so.
-
-<center>
-    <div>
-        <a href="url"><img src="./img/computerVisionMarion.jpg" align="center" height="200" width="160" ></a>
-    </div>
-</center>
-
-Imagine a puppet , one of those puppets with string attached to it called a marionette. Now take off all the strings. Now you can reattach 1 string, knowing that you have to make it dance with only 1 string. Then attach 2 more strings. 
-
-How will you chose the spots to attach the strings if you know you have to make the puppet dance? You will have to think about what movements are dominant.The more strings you can attach the more you will also look at smaller movements.
-
-This is PCA analysis, the principle components are the strings. If you have an infinite amount of strings, you could do every movement possible however the puppeteer must be a genius with infinite arms. As there are so many strings to control. This is why a small amount of strings is preferred. Or put more formally, the dimension of the problem is reduced.
 
 ### Step direction fitting algorithm
 After determining a model with PCA analysis. The shape of a average teeth can be approximated by the model, displayed in Figure3. The normal on each following pair of data points is also printed out. This will be the search direction.
