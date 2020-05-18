@@ -7,5 +7,10 @@ I am a Belgian engineer/ engineering student see [about](about.md) to find out m
 - Neovim (vim config in https://github.com/zilleplus/Vim_Stuff)
 - Thinkpad T530
 
+## Current projects I am working on:
+
+* panocpp : an other panoc solver, this time writting using modern c++ technique's.
+[github/zilleplus/panocpp](www.github.com/zilleplus/panocpp)
+
 ## Contact
 You can contact me through linkedin.
