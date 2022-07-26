@@ -4,9 +4,9 @@ I am a Belgian Engineer current working on waterjet-cutter([watch video](https:/
 
 ## Current passion projects I am working on
 * ChessEngine: A chess bot using the min-max (alpha-beta pruning)algorithm with a learned value function(deep learning using TensorFlow/Keras). [github/zilleplus/ChessEngine](https://github.com/Zilleplus/ChessEngine)
-* GPU vector algebra: A simple vector library using CUDA. [github/zilleplus/GPU_algebra](https://github.com/Zilleplus/GPU_algebra)
 
 ## Finished passion projects
+* GPU vector algebra: A simple vector library using CUDA. [github/zilleplus/GPU_algebra](https://github.com/Zilleplus/GPU_algebra)
 * Optimal control: A standalone implementation of single shot non-linear optimal control. [github.com/zilleplus/NonLinearOptimalControl](https://github.com/Zilleplus/NonLinearOptimalControl)
 * panocpp: an panoc solver, writting using modern c++ template technique's.
 [github/zilleplus/panocpp](https://www.github.com/zilleplus/panocpp)
